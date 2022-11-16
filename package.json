@@ -1,0 +1,32 @@
+{
+  "name": "app_poetry",
+  "version": "1.0.0",
+  "description": "Aplicação para escritores de poemas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitorgabrieldev/app_poetry.git"
+  },
+  "keywords": [
+    "poema",
+    "poesia",
+    "escritores",
+    "aplicação",
+    "github",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "Vitor Gabriel De Oliveira",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vitorgabrieldev/app_poetry/issues"
+  },
+  "homepage": "https://github.com/vitorgabrieldev/app_poetry#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.2"
+  }
+}
