@@ -25,6 +25,9 @@
     <link rel="stylesheet" href="./fonts.css">
     <link rel="stylesheet" href="./app.css">
 
+    <!-- --- * --- script --- * --- -->
+    <script src="./controls.js" defer></script>
+
 </head>
 <body>
     <!-- --- * --- Components --- * --- -->
@@ -49,5 +52,19 @@
             <i class="bi bi-three-dots-vertical"></i>
         </section>
     </header>
+    <section class="container_poetrys">
+        <div class="add_poetry">
+            <i onclick="add_create()" class="bi bi-plus-circle-fill"></i>
+            <i class="bi bi-check2-all"></i>
+            <i class="bi bi-trash-fill"></i>
+        </div>
+        <div onclick="showHidden_setings()" class="edit_hiddenShow">
+            <i class="bi bi-caret-down-fill"></i>
+        </div>
+    </section>
+    <section class="text_editor">
+        <textarea name="editor" id="editor" cols="30" rows="10"></textarea>
+        <button class="btn_send" type="button">Criar</button>
+    </section>
 </body>
 </html>

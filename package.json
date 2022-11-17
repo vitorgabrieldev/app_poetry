@@ -27,6 +27,7 @@
   },
   "homepage": "https://github.com/vitorgabrieldev/app_poetry#readme",
   "dependencies": {
-    "bootstrap": "^5.2.2"
+    "bootstrap": "^5.2.2",
+    "jsquery": "^1.1.1"
   }
 }
